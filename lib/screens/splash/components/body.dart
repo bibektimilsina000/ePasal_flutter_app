@@ -4,6 +4,7 @@ import 'package:flutter/material.dart';
 import '../../../constants.dart';
 import '../../../size_config.dart';
 import '../../../widgets/default_button.dart';
+import '../../sign_in/sign_in_screen.dart';
 import 'splash_content.dart';
 
 class Body extends StatefulWidget {
@@ -70,12 +71,15 @@ class _BodyState extends State<Body> {
                     DefaultButton(
                       text: "Continue",
                       press: () {
-                        // Navigator.pushNamed(context, SignInScreen.routeName);
+                        Navigator.pushNamed(context, SignInScreen.routeName);
                       },
                     ),
                     const Spacer(),
-                    const DefultTextButton(
+                    DefultTextButton(
                       text: 'Skip',
+                      onPress: () {
+                        Navigator.pushNamed(context, SignInScreen.routeName);
+                      },
                     ),
                     const Spacer()
                   ],
