@@ -39,7 +39,7 @@ class Body extends StatelessWidget {
                     onPressed: () {
                       Navigator.pushNamed(context, HomeScreen.routeName);
                     },
-                    child: const Text("Go To Home")),
+                    child: const Text("Go To Home (for dev)")),
                 SizedBox(height: SizeConfig.screenHeight * 0.08),
                 Row(
                   mainAxisAlignment: MainAxisAlignment.center,

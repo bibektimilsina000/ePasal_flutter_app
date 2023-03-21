@@ -4,6 +4,7 @@ import 'package:flutter_svg/flutter_svg.dart';
 import '../constants.dart';
 import '../enums.dart';
 import '../screens/home/home_screen.dart';
+import '../screens/profile/profile_screen.dart';
 
 class CustomBottomNavBar extends StatelessWidget {
   const CustomBottomNavBar({
@@ -62,10 +63,8 @@ class CustomBottomNavBar extends StatelessWidget {
                       ? kPrimaryColor
                       : inActiveIconColor,
                 ),
-                onPressed: () {},
-
-                // onPressed: () =>
-                //     Navigator.pushNamed(context, ProfileScreen.routeName),
+                onPressed: () =>
+                    Navigator.pushNamed(context, ProfileScreen.routeName),
               ),
             ],
           )),
