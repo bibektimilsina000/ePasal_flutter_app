@@ -24,7 +24,9 @@ class BigDiscount extends StatelessWidget {
           child: Row(
             children: [
               ...List.generate(bigDiscount.length, (index) {
-                return ProductCard(product: bigDiscount[index]);
+                return ProductCard(
+                  product: bigDiscount[index],
+                );
               })
             ],
           ),

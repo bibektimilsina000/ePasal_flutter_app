@@ -26,7 +26,9 @@ class Product {
 List<Product> demoProducts = [
   Product(
     id: 1,
-    images: [''],
+    images: [
+      "https://allureinternational.com.np/image/variation_product_image/WISffsDDesm46XkY34a4XwocFweeqND1nXetekXX.jpg"
+    ],
     colors: [
       const Color(0xFFF6625E),
       const Color(0xFF836DB8),
@@ -42,7 +44,9 @@ List<Product> demoProducts = [
   ),
   Product(
     id: 2,
-    images: [''],
+    images: [
+      'https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/792ab50c-531c-415f-8eae-f5ad8ea2c295/dri-fit-challenger-woven-running-trousers-kTXmkv.png'
+    ],
     colors: [
       const Color(0xFFF6625E),
       const Color(0xFF836DB8),
@@ -57,7 +61,9 @@ List<Product> demoProducts = [
   ),
   Product(
     id: 3,
-    images: [''],
+    images: [
+      'https://cdn.shopify.com/s/files/1/0655/7093/0909/products/fa81d37d50d882221031c54ebc23614e.jpg'
+    ],
     colors: [
       const Color(0xFFF6625E),
       const Color(0xFF836DB8),
@@ -73,7 +79,9 @@ List<Product> demoProducts = [
   ),
   Product(
     id: 4,
-    images: [''],
+    images: [
+      'https://www.myithub.com.au/wp-content/uploads/2021/10/85112546_9940012978-600x738.jpg'
+    ],
     colors: [
       const Color(0xFFF6625E),
       const Color(0xFF836DB8),
@@ -94,7 +102,9 @@ const String description =
 List<Product> newArival = [
   Product(
       id: 5,
-      images: [''],
+      images: [
+        'https://www.myithub.com.au/wp-content/uploads/2021/10/85112546_9940012978-600x738.jpg'
+      ],
       colors: [
         const Color(0xFFF6625E),
         const Color(0xFF836DB8),
@@ -106,7 +116,9 @@ List<Product> newArival = [
       description: description),
   Product(
       id: 6,
-      images: [''],
+      images: [
+        'https://www.myithub.com.au/wp-content/uploads/2021/10/85112546_9940012978-600x738.jpg'
+      ],
       colors: [
         const Color(0xFFF6625E),
         const Color(0xFF836DB8),
@@ -118,7 +130,9 @@ List<Product> newArival = [
       description: description),
   Product(
       id: 7,
-      images: [''],
+      images: [
+        'https://www.myithub.com.au/wp-content/uploads/2021/10/85112546_9940012978-600x738.jpg'
+      ],
       colors: [
         const Color(0xFFF6625E),
         const Color(0xFF836DB8),
@@ -130,7 +144,9 @@ List<Product> newArival = [
       description: description),
   Product(
       id: 8,
-      images: [''],
+      images: [
+        'https://www.myithub.com.au/wp-content/uploads/2021/10/85112546_9940012978-600x738.jpg'
+      ],
       colors: [
         const Color(0xFFF6625E),
         const Color(0xFF836DB8),
@@ -142,7 +158,9 @@ List<Product> newArival = [
       description: description),
   Product(
       id: 9,
-      images: [''],
+      images: [
+        'https://www.myithub.com.au/wp-content/uploads/2021/10/85112546_9940012978-600x738.jpg'
+      ],
       colors: [
         const Color(0xFFF6625E),
         const Color(0xFF836DB8),
@@ -153,10 +171,13 @@ List<Product> newArival = [
       price: 100,
       description: description),
 ];
+
 List<Product> bigDiscount = [
   Product(
-      id: 5,
-      images: [''],
+      id: 10,
+      images: [
+        'https://www.myithub.com.au/wp-content/uploads/2021/10/85112546_9940012978-600x738.jpg'
+      ],
       colors: [
         const Color(0xFFF6625E),
         const Color(0xFF836DB8),
@@ -167,8 +188,10 @@ List<Product> bigDiscount = [
       price: 100,
       description: description),
   Product(
-      id: 6,
-      images: [''],
+      id: 11,
+      images: [
+        'https://www.myithub.com.au/wp-content/uploads/2021/10/85112546_9940012978-600x738.jpg'
+      ],
       colors: [
         const Color(0xFFF6625E),
         const Color(0xFF836DB8),
@@ -179,8 +202,10 @@ List<Product> bigDiscount = [
       price: 20,
       description: description),
   Product(
-      id: 7,
-      images: [''],
+      id: 12,
+      images: [
+        'https://www.myithub.com.au/wp-content/uploads/2021/10/85112546_9940012978-600x738.jpg'
+      ],
       colors: [
         const Color(0xFFF6625E),
         const Color(0xFF836DB8),
@@ -191,8 +216,10 @@ List<Product> bigDiscount = [
       price: 200,
       description: description),
   Product(
-      id: 8,
-      images: [''],
+      id: 13,
+      images: [
+        'https://www.myithub.com.au/wp-content/uploads/2021/10/85112546_9940012978-600x738.jpg'
+      ],
       colors: [
         const Color(0xFFF6625E),
         const Color(0xFF836DB8),
@@ -203,8 +230,10 @@ List<Product> bigDiscount = [
       price: 50,
       description: description),
   Product(
-      id: 9,
-      images: [''],
+      id: 14,
+      images: [
+        'https://www.myithub.com.au/wp-content/uploads/2021/10/85112546_9940012978-600x738.jpg'
+      ],
       colors: [
         const Color(0xFFF6625E),
         const Color(0xFF836DB8),
