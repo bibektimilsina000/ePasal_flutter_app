@@ -1,3 +1,5 @@
+import 'package:epasal/screens/home/components/big_discount.dart';
+import 'package:epasal/screens/home/components/new_arival.dart';
 import 'package:flutter/material.dart';
 
 import '../../../size_config.dart';
@@ -25,6 +27,11 @@ class Body extends StatelessWidget {
             SizedBox(height: getProportionateScreenWidth(30)),
             const PopularProducts(),
             SizedBox(height: getProportionateScreenWidth(30)),
+            const NewArival(),
+            SizedBox(
+              height: getProportionateScreenHeight(30),
+            ),
+            const BigDiscount()
           ],
         ),
       ),

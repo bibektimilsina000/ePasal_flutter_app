@@ -26,12 +26,7 @@ class Product {
 List<Product> demoProducts = [
   Product(
     id: 1,
-    images: [
-      "assets/images/ps4_console_white_1.png",
-      "assets/images/ps4_console_white_2.png",
-      "assets/images/ps4_console_white_3.png",
-      "assets/images/ps4_console_white_4.png",
-    ],
+    images: [''],
     colors: [
       const Color(0xFFF6625E),
       const Color(0xFF836DB8),
@@ -47,9 +42,7 @@ List<Product> demoProducts = [
   ),
   Product(
     id: 2,
-    images: [
-      "assets/images/Image Popular Product 2.png",
-    ],
+    images: [''],
     colors: [
       const Color(0xFFF6625E),
       const Color(0xFF836DB8),
@@ -64,9 +57,7 @@ List<Product> demoProducts = [
   ),
   Product(
     id: 3,
-    images: [
-      "assets/images/glap.png",
-    ],
+    images: [''],
     colors: [
       const Color(0xFFF6625E),
       const Color(0xFF836DB8),
@@ -82,9 +73,7 @@ List<Product> demoProducts = [
   ),
   Product(
     id: 4,
-    images: [
-      "assets/images/wireless headset.png",
-    ],
+    images: [''],
     colors: [
       const Color(0xFFF6625E),
       const Color(0xFF836DB8),
@@ -101,3 +90,128 @@ List<Product> demoProducts = [
 
 const String description =
     "Wireless Controller for PS4™ gives you what you want in your gaming from over precision control your games to sharing …";
+
+List<Product> newArival = [
+  Product(
+      id: 5,
+      images: [''],
+      colors: [
+        const Color(0xFFF6625E),
+        const Color(0xFF836DB8),
+        const Color(0xFFDECB9C),
+        Colors.white,
+      ],
+      title: 'Shoes',
+      price: 100,
+      description: description),
+  Product(
+      id: 6,
+      images: [''],
+      colors: [
+        const Color(0xFFF6625E),
+        const Color(0xFF836DB8),
+        const Color(0xFFDECB9C),
+        Colors.white,
+      ],
+      title: 'Watch',
+      price: 20,
+      description: description),
+  Product(
+      id: 7,
+      images: [''],
+      colors: [
+        const Color(0xFFF6625E),
+        const Color(0xFF836DB8),
+        const Color(0xFFDECB9C),
+        Colors.white,
+      ],
+      title: "Smart Mobile Black",
+      price: 200,
+      description: description),
+  Product(
+      id: 8,
+      images: [''],
+      colors: [
+        const Color(0xFFF6625E),
+        const Color(0xFF836DB8),
+        const Color(0xFFDECB9C),
+        Colors.white,
+      ],
+      title: 'Smart Watch Black',
+      price: 50,
+      description: description),
+  Product(
+      id: 9,
+      images: [''],
+      colors: [
+        const Color(0xFFF6625E),
+        const Color(0xFF836DB8),
+        const Color(0xFFDECB9C),
+        Colors.white,
+      ],
+      title: 'Shoes',
+      price: 100,
+      description: description),
+];
+List<Product> bigDiscount = [
+  Product(
+      id: 5,
+      images: [''],
+      colors: [
+        const Color(0xFFF6625E),
+        const Color(0xFF836DB8),
+        const Color(0xFFDECB9C),
+        Colors.white,
+      ],
+      title: 'Shoes',
+      price: 100,
+      description: description),
+  Product(
+      id: 6,
+      images: [''],
+      colors: [
+        const Color(0xFFF6625E),
+        const Color(0xFF836DB8),
+        const Color(0xFFDECB9C),
+        Colors.white,
+      ],
+      title: 'Watch',
+      price: 20,
+      description: description),
+  Product(
+      id: 7,
+      images: [''],
+      colors: [
+        const Color(0xFFF6625E),
+        const Color(0xFF836DB8),
+        const Color(0xFFDECB9C),
+        Colors.white,
+      ],
+      title: "Smart Mobile Black",
+      price: 200,
+      description: description),
+  Product(
+      id: 8,
+      images: [''],
+      colors: [
+        const Color(0xFFF6625E),
+        const Color(0xFF836DB8),
+        const Color(0xFFDECB9C),
+        Colors.white,
+      ],
+      title: 'Smart Watch Black',
+      price: 50,
+      description: description),
+  Product(
+      id: 9,
+      images: [''],
+      colors: [
+        const Color(0xFFF6625E),
+        const Color(0xFF836DB8),
+        const Color(0xFFDECB9C),
+        Colors.white,
+      ],
+      title: 'Shoes',
+      price: 100,
+      description: description),
+];
