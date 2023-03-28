@@ -1,4 +1,4 @@
-import 'package:epasal/screens/home/home_screen.dart';
+import 'package:epasal/screens/home/home_page.dart';
 import 'package:flutter/material.dart';
 
 import '../../../size_config.dart';
@@ -37,7 +37,7 @@ class Body extends StatelessWidget {
                 const SignForm(),
                 ElevatedButton(
                     onPressed: () {
-                      Navigator.pushNamed(context, HomeScreen.routeName);
+                      Navigator.pushNamed(context, HomePage.routeName);
                     },
                     child: const Text("Go To Home (for dev)")),
                 SizedBox(height: SizeConfig.screenHeight * 0.08),

@@ -1,3 +1,4 @@
+import 'package:epasal/screens/home/home_page.dart';
 import 'package:flutter/widgets.dart';
 
 //local
@@ -24,6 +25,7 @@ final Map<String, WidgetBuilder> routes = {
   CompleteProfileScreen.routeName: (context) => const CompleteProfileScreen(),
   OtpScreen.routeName: (context) => const OtpScreen(),
   HomeScreen.routeName: (context) => const HomeScreen(),
+  HomePage.routeName: (context) => const HomePage(),
   DetailsScreen.routeName: (context) => const DetailsScreen(),
   CartScreen.routeName: (context) => const CartScreen(),
   ProfileScreen.routeName: (context) => const ProfileScreen(),
